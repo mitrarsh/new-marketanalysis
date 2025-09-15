@@ -92,6 +92,7 @@ p {
 
 /* section */
 
+
 .box {
   background-color: blue;
   display: grid;
@@ -131,3 +132,5 @@ p {
     height: 15rem; 
   }
 }
+
+

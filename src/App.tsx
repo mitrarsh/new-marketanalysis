@@ -1,14 +1,18 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import RootLayout from "./layout/RootLayout"
+import HomePage from "./pages/HomePage"
 
 
 const App = () => {
+    const router = createBrowserRouter([{
+      path: '/', 
+      element: <RootLayout/>,
+      children:[
+        {index:true, element:<HomePage/>}
+      ]
+    }])
   return (
-    <div>
-      <h1>heello</h1>
-      <h2>helloo</h2>
-      <h3>helloo</h3>
-      <h4>helloo</h4>
-      <p>dsffsdfs</p>
-    </div>
+    <RouterProvider router={router}></RouterProvider>
   )
 }
 
