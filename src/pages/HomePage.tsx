@@ -5,8 +5,7 @@ import SliderOption from "../components/SliderOption";
 const HomePage = () => {
   return (
     <div>
-      <Btn btnClass="btn-secondary">Login</Btn>
-      <Btn btnClass="btn-primary">Sign Up</Btn>
+
       <SliderOption image="business">
         <h3>Market ter</h3>
         <p>
