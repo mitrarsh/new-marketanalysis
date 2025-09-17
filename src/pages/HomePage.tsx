@@ -1,10 +1,9 @@
-import ArrowLi from "../components/ArrowLi";
-import Btn from "../components/btn";
-import SliderOption from "../components/SliderOption";
+import Header from "../components/homepage/Header";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className=" homepage layout-section">
+      <Header/>
     </div>
   );
 };
