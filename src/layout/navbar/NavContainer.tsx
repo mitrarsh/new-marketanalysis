@@ -1,5 +1,5 @@
 
-import Btn from './../../components/Btn';
+import Btn from './Btn';
 
 const NavContainer = () => {
   return (
