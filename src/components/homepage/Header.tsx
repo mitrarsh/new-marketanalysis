@@ -6,6 +6,9 @@ const Header = () => {
       <div className="mobile-img">
         <img src="/assets/icons/trade2.png" alt="" />
       </div>
+      <div className="gap">
+        <img src="/assets/icons/trade2.png" alt="" />
+      </div>
       <div className="header-content-container">
         <div className="header-content">
           <div className="header-title">
