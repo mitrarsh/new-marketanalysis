@@ -1,10 +1,11 @@
+
 import Body from "../components/homepage/body/Body";
-import Header from "../components/homepage/Header";
+import HeaderContainer from "../components/homepage/header/HeaderContainer";
 
 const HomePage = () => {
   return (
-    <div className=" homepage layout-section">
-      <Header/>
+    <div>
+      <HeaderContainer/>
       <Body/>
     </div>
   );
