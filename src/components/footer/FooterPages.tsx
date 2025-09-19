@@ -1,13 +1,13 @@
-import React from 'react'
 
+import { Link } from 'react-router-dom'
 const FooterPages = () => {
   return (
     <div className='footer-pages'>
         <h2>Pages</h2>
         <ul>
-            <li>FAQs</li>
-            <li>About us</li>
-            <li>Terms & Conditions</li>
+          <Link className='link' to="/FAQ">FAQs</Link>
+          <Link className='link' to="About-us">About us</Link>
+          <Link className='link' to="/terms-and-conditions">Terms & Conditions</Link>
         </ul>
     </div>
   )

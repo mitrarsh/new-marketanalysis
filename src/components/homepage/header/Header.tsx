@@ -8,7 +8,6 @@ const Header = () => {
       </div>
       <div className="gap">
         <img src="/assets/icons/trade2.png" alt="" />
-        
       </div>
       <div className="header-content-container">
         <div className="header-content">
@@ -16,7 +15,7 @@ const Header = () => {
             <h1>
               THE <b>FUTURE</b> OF <b>MINERAL MARKET</b> IS HERE WITH
             </h1>
-            <FallingText />
+            <FallingText/>
           </div>
           <p>
             NEW, an innovative and user-friendly AI model that uses cutting-edge
