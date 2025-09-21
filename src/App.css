@@ -247,7 +247,7 @@ global components
   gap: 1rem;
   align-self: center;
 }
-.navigate-link p{
+.navigate-link-text{
   color: var(--clr-primary-1);
 }
 @media screen and (min-width: 800px) {

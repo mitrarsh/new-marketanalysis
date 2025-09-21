@@ -15,7 +15,7 @@ const SignUp = () => {
           <h4>Already have an account?</h4>
         </span>
         <Link to="/pwa/login">
-          <span>Sign in</span>
+          <span className="navigate-link-text">Sign in</span>
         </Link>
       </div>
     </PWASection>

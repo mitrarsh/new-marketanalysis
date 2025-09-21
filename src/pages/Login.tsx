@@ -18,7 +18,7 @@ const Login = () => {
               <h4>Haven't registered yet?</h4>
             </span>
             <Link to="/pwa/signup">
-              <span>Sign Up</span>
+              <span>Register</span>
             </Link>
           </div>
         </div>
