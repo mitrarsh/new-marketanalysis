@@ -8,8 +8,8 @@ const NavContainer = () => {
         <img src="/assets/icons/logo.svg" alt="" />
       </div>
       <div>
-        <Btn btnClass="btn-secondary">Login</Btn>
-        <Btn btnClass="btn-primary">Sign Up</Btn>
+        <Btn btnClass="btn-secondary" to="login">Login</Btn>
+        <Btn btnClass="btn-primary" to="signup">Sign Up</Btn>
       </div>
     </nav>
   );

@@ -1,14 +1,18 @@
-type BtnProps={
-    btnClass?: string;
-    children?:React.ReactNode 
-}
+import { Link } from "react-router-dom";
 
-const Btn = ({btnClass,children}:BtnProps) => {
+type BtnProps = {
+  btnClass?: string;
+  children?: React.ReactNode;
+  to: string;
+};
+
+const Btn = ({ to, btnClass, children }: BtnProps) => {
+    typeof children === "string" ? children.toLowerCase() : "";
   return (
-    <button className={`btn ${btnClass}`} >
-        {children}
-    </button>
-  )
-}
+    <Link to={`pwa/${to}`}>
+      <button className={`btn ${btnClass}`}>{children}</button>
+    </Link>
+  );
+};
 
-export default Btn
+export default Btn;

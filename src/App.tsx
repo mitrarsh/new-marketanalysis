@@ -5,9 +5,19 @@ import HomeLayout from "./layout/homelayout/HomeLayout";
 import About from "./pages/About";
 import TermsConditions from "./pages/Terms&Conditions";
 import FAQ from "./pages/FAQ";
+import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
 
 const App = () => {
   const router = createBrowserRouter([
+    {
+      path: "/pwa/login",
+      element:<Login/>,
+    },
+    {
+      path: "/pwa/signup",
+      element:<SignUp/>,
+    },
     {
       path: "/",
       element: <RootLayout />,
@@ -17,7 +27,7 @@ const App = () => {
           element: <HomeLayout />,
           children: [
             { path: "/about-us", element: <About /> },
-            { path: "/FAQ", element: <FAQ /> },
+            { path: "/FAQs", element: <FAQ /> },
             { path: "/terms-and-conditions", element: <TermsConditions /> },
           ],
         },
